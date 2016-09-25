@@ -11,8 +11,32 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.seifmostafa.colormatch.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_result"
+        android:src="@drawable/round_button"
+        android:contentDescription="@string/resultcolor"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/round_button"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="200dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/round_button"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
 </RelativeLayout>
